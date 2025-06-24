@@ -1,0 +1,209 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  background: linear-gradient(135deg, #6b48ff, #ff4e8a);
+  color: #fff;
+  overflow-x: hidden;
+}
+
+h1, h2, h3 {
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+button {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+}
+
+.navbar h3 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.user-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.user-section span {
+  font-size: 16px;
+}
+
+.user-section button {
+  padding: 8px 15px;
+  background: #ff4e8a;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.user-section button:hover {
+  background: #6b48ff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  animation: fadeIn 1s ease-in;
+}
+
+.login-card, .dashboard-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 40px;
+  border-radius: 15px;
+  width: 350px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.login-card:hover, .dashboard-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+.login-card h2, .dashboard-card h2 {
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 28px;
+  text-align: center;
+}
+
+.login-card form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-card label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.login-card input,
+.login-card select,
+.tile-form input,
+.tile-form select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  outline: none;
+  transition: background 0.3s ease;
+}
+
+.login-card input:focus,
+.login-card select:focus,
+.tile-form input:focus,
+.tile-form select:focus {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.login-card button {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(45deg, #ff4e8a, #6b48ff);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.login-card button:hover {
+  background: linear-gradient(45deg, #6b48ff, #ff4e8a);
+  transform: translateY(-2px);
+}
+
+.dashboard {
+  padding: 20px;
+}
+
+.tile-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.tile-form button {
+  padding: 10px 20px;
+  background: #ff4e8a;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.tile-form button:hover {
+  background: #6b48ff;
+}
+
+.tile-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.tile {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.tile:hover {
+  transform: translateY(-5px);
+}
+
+.tile h3 {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.tile button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  background: #ff4e8a;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.tile button:hover {
+  background: #6b48ff;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
