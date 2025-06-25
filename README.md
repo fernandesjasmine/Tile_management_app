@@ -83,7 +83,7 @@ npm install -g windows-build-tools
 node server.js
 ```
 
-🎨 Frontend Setup
+# 🎨 Frontend Setup
 - Navigate to the frontend root (project root, not inside backend).
 
 - Install frontend dependencies:
