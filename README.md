@@ -1,4 +1,4 @@
-# 🏢 Tile Management Application
+#  Tile Management Application
 
 A **web-based tile management system** designed for businesses to manage tile products effectively. The application supports two user roles:
 
@@ -7,19 +7,18 @@ A **web-based tile management system** designed for businesses to manage tile pr
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 🔐 **Authentication:** Secure JWT-based login system with role-based access (admin and viewer).
-- 🏗️ **Admin Dashboard:** Add, update, and delete tiles. Includes category and application dropdowns.
-- 👁️ **Viewer Dashboard:** View the list of products with product name and SQ code.
-- 🎨 **Branding:** Custom logo displayed in the navigation bar.
-- 🗄️ **Database:** MySQL backend storing users, categories, applications, and products.
-- 🔒 **Security:** Passwords hashed with bcrypt, token expiration set to 1 hour, protected backend routes.
-- 🌐 **Frontend & Backend:** Developed using React for frontend and Node.js (Express) for backend.
+-  **Authentication:** Secure JWT-based login system with role-based access (admin and viewer).
+-  **Admin Dashboard:** Add, update, and delete tiles. Includes category and application dropdowns.
+-  **Viewer Dashboard:** View the list of products with product name and SQ code.
+-  **Database:** MySQL backend storing users, categories, applications, and products.
+-  **Security:** Passwords hashed with bcrypt, token expiration set to 1 hour, protected backend routes.
+-  **Frontend & Backend:** Developed using React for frontend and Node.js (Express) for backend.
 
 ---
 
-## 🧑‍💻 Tech Stack
+##  Tech Stack
 
 | Layer        | Technology                            |
 |---------------|----------------------------------------|
@@ -34,32 +33,7 @@ A **web-based tile management system** designed for businesses to manage tile pr
 
 TILE-VISUALIZER-FRONTEND/
 ├── backend/ # Backend Node.js API
-│ ├── .env # Environment variables
-│ ├── ESLint config.eslintrc.json
-│ ├── .eslintignore
-│ ├── hashpasswords.js # Script to hash passwords
-│ ├── server.js # Entry point for backend server
-│ └── package.json
-│
-├── src/ # React Frontend
-│ ├── assets/ # Static assets (logo)
-│ │ └── logo.svg
-│ ├── components/ # React components
-│ │ ├── AdminDashboard.js
-│ │ ├── ViewerDashboard.js
-│ │ ├── Login.js
-│ │ ├── Navbar.js
-│ │ ├── ProtectedRoute.js
-│ │ ├── TileOverlay.js
-│ │ └── UploadPanel.js
-│ ├── App.js # Main App
-│ ├── App.css # App styling
-│ ├── index.js # React entry point
-│ └── reportWebVitals.js
-│
-├── public/ # Public assets
-├── .eslintignore
-├── package.json
+├── frontend/# React frontend
 └── README.md
 
 ## 🔧 Setup Instructions
@@ -72,7 +46,7 @@ TILE-VISUALIZER-FRONTEND/
 - For Windows: Install Windows Build Tools  
 ```bash
 npm install -g windows-build-tools
-
+```
 ### Backend Setup
 Navigate to the backend folder.
 
