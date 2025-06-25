@@ -51,36 +51,36 @@ TILE-VISUALIZER-FRONTEND/
 npm install -g windows-build-tools
 ```
 ### Backend Setup
-Navigate to the backend folder.
+-Navigate to the backend folder.
 
-Install backend dependencies using npm install.
+-Install backend dependencies using npm install.
 
-Create a .env file in the backend folder with:
+-Create a .env file in the backend folder with:
 
-  Database credentials (host, user, password, db name).
+  -Database credentials (host, user, password, db name).
 
-  Server port.
+  -Server port.
 
-  JWT secret (generate using Node crypto command).
+  -JWT secret (generate using Node crypto command).
 
-Set up the MySQL database:
+-Set up the MySQL database:
 
-Create the database (tile_gallery_db).
+   Create the database (tile_gallery_db).
 
-Create tables: category_master, application_master, products, users.
+   Create tables: category_master, application_master, products, users.
 
-Insert initial values into category_master and application_master.
+   Insert initial values into category_master and application_master.
 
-Generate bcrypt password hashes for users:
+-Generate bcrypt password hashes for users:
 
-Use the provided hashpasswords.js script to hash passwords.
+   Use the provided hashpasswords.js script to hash passwords.
 
-Insert hashed passwords into the users table.
+   Insert hashed passwords into the users table.
 
 Start the backend server:
 
-bash
+```bash
 Copy
 Edit
 node server.js
-
+```
