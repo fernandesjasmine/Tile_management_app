@@ -1,7 +1,7 @@
 // hash-passwords.js
 const bcrypt = require('bcrypt');
 
-const passwords = ['admin123', 'viewer123'];
+const passwords = ['<adminpassword>', '<viewerpassword>'];
 const saltRounds = 10;
 
 passwords.forEach(password => {
