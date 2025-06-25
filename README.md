@@ -77,8 +77,35 @@ npm install -g windows-build-tools
 
    Insert hashed passwords into the users table.
 
-Start the backend server:
+- Start the backend server:
 
 ```bash
 node server.js
 ```
+
+🎨 Frontend Setup
+- Navigate to the frontend root (project root, not inside backend).
+
+- Install frontend dependencies:
+
+``` bash
+npm install react-router-dom
+npm install eslint --save-dev
+npx eslint --init
+```
+- Create a .eslintignore file to exclude backend files from linting.
+
+
+- Start the frontend server:
+
+``` bash
+npm start
+```
+# 🧑‍💻 Usage
+- Visit http://localhost:3000 to access the frontend.
+
+Admin can log in to /admin for tile management (add/edit/delete).
+
+Viewer can access /viewer to view the tile list (product name + SQ code).
+
+- JWT-based authentication ensures protected routes.
