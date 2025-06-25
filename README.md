@@ -32,8 +32,11 @@ A **web-based tile management system** designed for businesses to manage tile pr
 ## 📁 Project Structure
 
 TILE-VISUALIZER-FRONTEND/
+
 ├── backend/ # Backend Node.js API
+
 ├── frontend/# React frontend
+
 └── README.md
 
 ## 🔧 Setup Instructions
