@@ -50,7 +50,7 @@ TILE-VISUALIZER-FRONTEND/
 ```bash
 npm install -g windows-build-tools
 ```
-### Backend Setup
+## Backend Setup
 - Navigate to the backend folder.
 
 - Install backend dependencies using npm install.
@@ -83,7 +83,7 @@ npm install -g windows-build-tools
 node server.js
 ```
 
-# 🎨 Frontend Setup
+## 🎨 Frontend Setup
 - Navigate to the frontend root (project root, not inside backend).
 
 - Install frontend dependencies:
