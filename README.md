@@ -3,17 +3,17 @@ Tile Management Application
 
 The Tile Management Application is a web-based system for managing and viewing tile products. It supports two user roles: Admin (create, update, delete tiles) and Viewer (view tile list with product name and SQ code). Built with a React frontend, Node.js/Express backend, and MySQL database, it features JWT-based authentication and a custom logo for branding.
 
-Features
+# Features
 
 
 
 
 
-Authentication: JWT-based login with role-based access control for admin and viewer users.
+# Authentication: 
+JWT-based login with role-based access control for admin and viewer users.
 
-
-
-Admin Dashboard: Form to add, edit, and delete tiles, with category and application dropdowns.
+# Admin Dashboard: 
+Form to add, edit, and delete tiles, with category and application dropdowns.
 
 
 
