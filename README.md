@@ -57,13 +57,13 @@ npm install -g windows-build-tools
 
 - Create a .env file in the backend folder with:
 
-  -Database credentials (host, user, password, db name).
+  Database credentials (host, user, password, db name).
 
-  -Server port.
+  Server port.
 
-  -JWT secret (generate using Node crypto command).
+  JWT secret (generate using Node crypto command).
 
--Set up the MySQL database:
+- Set up the MySQL database:
 
    Create the database (tile_gallery_db).
 
@@ -71,7 +71,7 @@ npm install -g windows-build-tools
 
    Insert initial values into category_master and application_master.
 
--Generate bcrypt password hashes for users:
+- Generate bcrypt password hashes for users:
 
    Use the provided hashpasswords.js script to hash passwords.
 
