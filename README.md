@@ -7,7 +7,7 @@ A **web-based tile management system** designed for businesses to manage tile pr
 
 ---
 
-##  Features
+## 🔧 Features
 
 -  **Authentication:** Secure JWT-based login system with role-based access (admin and viewer).
 -  **Admin Dashboard:** Add, update, and delete tiles. Includes category and application dropdowns.
@@ -18,7 +18,7 @@ A **web-based tile management system** designed for businesses to manage tile pr
 
 ---
 
-##  Tech Stack
+## 🧑‍💻 Tech Stack
 
 | Layer        | Technology                            |
 |---------------|----------------------------------------|
