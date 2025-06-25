@@ -16,12 +16,11 @@ This application is built with:
 
 ## Features
 
-- 🔐 **Authentication:** Secure JWT-based login with role-based access (admin, viewer).
-- 🛠️ **Admin Dashboard:** Add, edit, and delete tiles with category and application dropdowns.
-- 👁️ **Viewer Dashboard:** Displays product name and SQ code with a refresh button.
-- 🎨 **Custom Logo:** Branded navigation bar with a custom logo.
-- 🗄️ **Database:** MySQL stores categories, applications, products, and users.
-- 🔒 **Security:** Passwords hashed using bcrypt, protected routes, token expiration (1 hour).
+- **Authentication:** Secure JWT-based login with role-based access (admin, viewer).
+- **Admin Dashboard:** Add, edit, and delete tiles with category and application dropdowns.
+- **Viewer Dashboard:** Displays product name and SQ code with a refresh button.
+- **Database:** MySQL stores categories, applications, products, and users.
+- **Security:** Passwords hashed using bcrypt, protected routes, token expiration (1 hour).
 
 ---
 
