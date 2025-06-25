@@ -51,11 +51,11 @@ TILE-VISUALIZER-FRONTEND/
 npm install -g windows-build-tools
 ```
 ### Backend Setup
--Navigate to the backend folder.
+- Navigate to the backend folder.
 
--Install backend dependencies using npm install.
+- Install backend dependencies using npm install.
 
--Create a .env file in the backend folder with:
+- Create a .env file in the backend folder with:
 
   -Database credentials (host, user, password, db name).
 
@@ -80,7 +80,5 @@ npm install -g windows-build-tools
 Start the backend server:
 
 ```bash
-Copy
-Edit
 node server.js
 ```
